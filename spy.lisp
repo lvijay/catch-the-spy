@@ -41,9 +41,12 @@
 
 (in-package :spy)
 
+(defvar *a* -12)
+(defvar *b*   5)
+
 (defstruct spy
-  (a (* (random 100) (if (zerop (random 2)) -1 +1)) :type integer)
-  (b (* (random 100) (if (zerop (random 2)) -1 +1)) :type integer)
+  (a *a* :type integer)
+  (b *b* :type integer)
   (time 0 :type fixnum)
   (game-id "" :type string))
 

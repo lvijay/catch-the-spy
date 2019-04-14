@@ -49,9 +49,9 @@ def neg_pairs(n):
     l = []
     for a, b in pairs(n):
         l.append(( a,  b))
-        if b > 0:           l.append(( a, -b))
-        if a > 0:           l.append((-a,  b))
-        if a > b and b > 0: l.append((-a, -b))
+        if b != 0:            l.append(( a, -b))
+        if a != 0:            l.append((-a,  b))
+        if a != 0 and b != 0: l.append((-a, -b))
     return l
 
 class Game(object):

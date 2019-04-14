@@ -3,18 +3,18 @@
 This repository solves the following puzzle from the book "Algorithmic
 Puzzles" by Anany Levitin and Maria Levitin.
 
-> In a computer game, a spy is located on a one-dimensional line. At
-> time `0`, the spy is at location `a`. With each time interval, the
+> In a computer game, a spy is located on a one-dimensional line.  At
+> time `0`, the spy is at location `a`.  With each time interval, the
 > spy moves `b` units to the right if `b≥0`, and `|b|` units to the
 > left if `b<0`.  Both `a` and `b` are fixed integers, but they are
-> unknown to you. Your goal is to identify the spy’s location by
+> unknown to you.  Your goal is to identify the spy’s location by
 > asking at each time interval (starting at time 0) whether the spy is
-> currently at some location of your choosing. For example, you can
+> currently at some location of your choosing.  For example, you can
 > ask whether the spy is currently at location 19, to which you will
-> receive a truthful yes/no answer. If the answer is “yes,” you reach
+> receive a truthful yes/no answer.  If the answer is “yes,” you reach
 > your goal; if the answer is “no,” you can ask the next time whether
-> the spy is at the same or another location of your choice. Devise an
-> algorithm that will find the spy after a finite number questions.
+> the spy is at the same or another location of your choice.  Devise
+> an algorithm that will find the spy after a finite number questions.
 
 # Solution
 
